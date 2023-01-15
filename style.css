@@ -1,3 +1,4 @@
+
 scrollspy-example {
   position: relative;
 }
@@ -14,7 +15,7 @@ body {
 
 .header {
   height: 94.8vh;
-  background-image: url('img/knight.jpg');
+  background-color: #6d72c3;
 	background-repeat: no-repeat;
   background-attachment: fixed;
 	background-position: 50% 0;
@@ -110,7 +111,7 @@ body {
 
 
 #navbar {
-    background-color:#F8EBF0;
+    background-color:#6d72c3;
   overflow: hidden;
   transition: background-color 0.5s;
   height: auto;
@@ -120,7 +121,7 @@ body {
   float: left;
   display: block;
   text-align: center;  
-  color: #0A2C64;
+  color: #cbd7e6;
   transition: color 0.5s;
   height: auto;
 }
@@ -212,13 +213,13 @@ body {
 }
 
 #navbar a:hover {
-  background-color: #FF91B2;
+  background-color: #5941a9;
     transition: background-color 0.3s;
   z-index: 11000000;
 }
 
 a.active {
-  background-color: #FF91B2;
+  background-color: #5941a9;
 }
 
 .content {
@@ -236,7 +237,6 @@ html {
   button {
     border: none;
     outline: 0;
-    background-color: #594343;
     text-align: center;
     font-family: 'Paytone One', sans-serif;
     font-variant: small-caps;
@@ -257,8 +257,8 @@ a.btn {
 
 a.btn:hover {
   transition: color 1;
-  background-color: #FF91B2;
-  border-color: #FF91B2;
+  background-color: #5941a9;
+  border-color: #5941a9;
 }
 
 
@@ -276,7 +276,7 @@ a.btn:hover {
 
 .enable,
 .dots:hover {
-  background-color: #717161;
+  background-color: #5941a9;
 }
 
 
@@ -291,8 +291,8 @@ a.btn:hover {
     width: 97%;
   }
   .whiteDesc {
-    color: #0A2C64;
-    background-color: #E9C2F1;
+    color: #aeecef;
+    background-color: #6d72c3;
     text-align: center;
     padding: 50px 80px;
    font-family: 'Tenor Sans', sans-serif;
@@ -342,26 +342,24 @@ a.btn:hover {
 }
 
   .desc {
-    color: white;
     position: relative;
-    background-color: #E9C2F1;
+    color: #aeecef;
+    background-color: #6d72c3;
     padding: 50px 80px;
     text-align: justify;
   }
 
 .descs {
-    color: white;
     position: relative;
-    background-color: #E9C2F1;
+    color: #aeecef;
+    background-color: #6d72c3;
     padding: 100px 80px;
     text-align: justify;
   }
 
   .logo {
   text-align: center;
-    margin: auto;
-   height:1176px;
-    width:2568px;
+  margin: auto;
   display: flex;
   justify-content: center;
   }
@@ -385,23 +383,23 @@ a.btn:hover {
   }
 
   .bgimg-2 {
-    background-image: url("img/knight.jpg");
+    background-image: url("img/night.png");
     min-height: 400px;
   }
 
   .bgimg-3 {
-    background-image: url("img/knight.jpg");
+    background-image: url("img/night.png");
     min-height: 400px;
   }
   .bgimg-4 {
-    background-image: url("img/knight.jpg");
+    background-image: url("img/night.png");
     min-height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
   .bgimg-5 {
-    background-image: url("img/knight.jpg");
+    background-image: url("img/night.png");
     min-height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -433,7 +431,6 @@ a.btn:hover {
   }
 
   .caption span.border {
-    background-color: #f27b48;
     color: #fff;
     padding: 18px;
     font-size: 25px;
@@ -508,10 +505,10 @@ a.btn:hover {
   	font-size: 1em;
   	color: #FFF;
   	text-transform: uppercase;
-  	background: #FF91B2;
+  	background: #5941a9;
   	padding: .8em 1em .7em;
   	border: 0;
-  	border-bottom: 3px solid #FF91B2;
+  	border-bottom: 3px solid #5941a9;
   	margin-top: 15px;
   }
   .first-step {

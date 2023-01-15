@@ -1,26 +1,24 @@
 
 /*sleep calculator*/
-function numberCalculator{
-	var i, ideal, night, total, x;
-total = 0;
-night = Number.parseInt(input("What is the ideal amount of sleep you want each night:"));
-ideal = 7 * night;
+function numberCalculator() {
 
-for (var i = 0, _pj_a = 7; i < _pj_a; i += 1) {
-  i = input("Day of the week: ");
-  x = Number.parseFloat(Number.parseInt(input("Hours of sleep:")));
-  total = total + x;
-}
+	let y = document.getElementById(sleepNumber).value;
+	let z = document.getElementById(sleepNumberTwo).value;
+	let ideal = 7 * z;
+	let total = 7 * y;
+	let f = document.getElementById(stuff).innerHTML;
+	
+	if (total === ideal) {
+		console.log("what");
+		f = "You got the perfect amount of sleep!";
+	} else {
+		if (total > ideal) {
+			f = "Great job, you have slept " + document.getElementById("demo").innerHTML = total - ideal; + " more hours than your ideal amount of			sleep";
+		} else {
+			if (total < ideal) {
+				f = "You should get some sleep. You've slept " + document.getElementById("demo").innerHTML = ideal - total; + " hours less than you should have this week";
+			}
+		}
 
-if (total === ideal) {
-  console.log("You got the perfect amount of sleep!");
-} else {
-  if (total > ideal) {
-    console.log("Great job, you have slept " + (total - 						ideal).toString() + " more hours than your ideal amount of			sleep");
-  } else {
-    if (total < ideal) {
-      console.log("You should get some sleep. You've slept " + (ideal - total).toString() + " hours less than you should have this week");
-    }
-  }
-
+	}
 }
